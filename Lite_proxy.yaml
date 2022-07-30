@@ -11,7 +11,7 @@ payload:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
   - DOMAIN-SUFFIX,labondemand.com
-  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,cn.bing.com
   - DOMAIN-SUFFIX,getmailspring.com
   - DOMAIN-SUFFIX,gtlab.com
   - DOMAIN-SUFFIX,madou.club
