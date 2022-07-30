@@ -5,7 +5,7 @@
 #
 payload:
 #####彩虹六号游戏节点
-  - DOMAIN,public-ubiservices.ubi.com,🎮 游戏节点
+  - DOMAIN,public-ubiservices.ubi.com
   - DOMAIN,r6s1.battleye.com
   - DOMAIN,ubisoft-avatars.akamaized.net
   - DOMAIN,public-ws-ubiservices.ubi.com
@@ -13,16 +13,16 @@ payload:
   - DOMAIN,ubistatic3-a.akamaihd.net
   - DOMAIN,dmx.upc.ubisoft.com
   - DOMAIN,channel-service.upc.ubi.com
-  - DOMAIN,r6pcaddons.azureedge.net,🎮 游戏节点
-  - DOMAIN,game-page.cdn.ubisoft.com,🎮 游戏节点
-  - DOMAIN-SUFFIX,dmx.upc.ubisoft.com,🎮 游戏节点
-  - DOMAIN-SUFFIX,public-ubiservices.ubi.com,🎮 游戏节点
+  - DOMAIN,r6pcaddons.azureedge.net
+  - DOMAIN,game-page.cdn.ubisoft.com
+  - DOMAIN-SUFFIX,dmx.upc.ubisoft.com
+  - DOMAIN-SUFFIX,public-ubiservices.ubi.com
 #####育碧域名
-  - DOMAIN-SUFFIX,vivox.com,🎮 游戏节点
-  - DOMAIN-SUFFIX,gamecdn.r6q.ubisoft.com,🎮 游戏节点
-  - DOMAIN-SUFFIX,lb-rdv-pioneer-prod.ubisoft.com,🎮 游戏节点
-  - DOMAIN,addons-manifest.dev.r6q.ubisoft.com,🎮 游戏节点
-  - DOMAIN,static8.cdn.ubi.com,PROXY
-  - DOMAIN,static3.cdn.ubi.com,PROXY
-  - DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com,PROXY
-  - DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com,PROXY
+  - DOMAIN-SUFFIX,vivox.com
+  - DOMAIN-SUFFIX,gamecdn.r6q.ubisoft.com
+  - DOMAIN-SUFFIX,lb-rdv-pioneer-prod.ubisoft.com
+  - DOMAIN,addons-manifest.dev.r6q.ubisoft.com
+  - DOMAIN,static8.cdn.ubi.com
+  - DOMAIN,static3.cdn.ubi.com
+  - DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
+  - DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
