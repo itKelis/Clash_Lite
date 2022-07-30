@@ -5,38 +5,37 @@ payload:
 ######DOMAIN-KEYWORD########
 #
 #
-  - DOMAIN-KEYWORD,mahjongsoul,PROXY
-  - DOMAIN-KEYWORD,kde,PROXY
-  - DOMAIN-KEYWORD,pling,PROXY
-  - DOMAIN-KEYWORD,sharepoint,DIRECT
-  - DOMAIN-KEYWORD,onmicrosoft,DIRECT
+  - DOMAIN-KEYWORD,mahjongsoul
+  - DOMAIN-KEYWORD,kde
+  - DOMAIN-KEYWORD,pling
 #
 # 
 ######DOMAIN#######
 #
 #
-  - DOMAIN,rewards.microsoft.com,PROXY
-  - DOMAIN,v2ex.com,PROXY
-  - DOMAIN,edge.microsoft.com,PROXY
-  - DOMAIN,dns.weixin.qq.com,PROXY
-  - DOMAIN,addons.mozilla.org,PROXY
-  - DOMAIN,igg-games.com,PROXY
+  - DOMAIN,bing.com
+  - DOMAIN,rewards.microsoft.com
+  - DOMAIN,v2ex.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,dns.weixin.qq.com
+  - DOMAIN,addons.mozilla.org
+  - DOMAIN,igg-games.com
 #
 #
 ######DOMAIN-SUFFIX######
 #
 #
-  - DOMAIN-SUFFIX,labondemand.com,PROXY
-  - DOMAIN-SUFFIX,bing.com,PROXY
-  - DOMAIN-SUFFIX,getmailspring.com,PROXY
-  - DOMAIN-SUFFIX,gtlab.com,PROXY
-  - DOMAIN-SUFFIX,madou.club,PROXY
-  - DOMAIN-SUFFIX,hkanime.com,PROXY
-  - DOMAIN-SUFFIX,konami.net,PROXY
-  - DOMAIN-SUFFIX,hkdtmb.com,PROXY
-  - DOMAIN-SUFFIX,flr-eu2.cbox.ws,PROXY
-  - DOMAIN-SUFFIX,www5.cbox.ws,PROXY
+  - DOMAIN-SUFFIX,labondemand.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,getmailspring.com
+  - DOMAIN-SUFFIX,gtlab.com
+  - DOMAIN-SUFFIX,madou.club
+  - DOMAIN-SUFFIX,hkanime.com
+  - DOMAIN-SUFFIX,konami.net
+  - DOMAIN-SUFFIX,hkdtmb.com
+  - DOMAIN-SUFFIX,flr-eu2.cbox.ws
+  - DOMAIN-SUFFIX,www5.cbox.ws
       ####secret######
-  - DOMAIN-SUFFIX,iwara.tv,PROXY
+  - DOMAIN-SUFFIX,iwara.tv
   - DOMAIN-SUFFIX,pronhub.com
   - DOMAIN-SUFFIX,xvideos.com
