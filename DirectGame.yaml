@@ -7,11 +7,11 @@
 
 payload:
   ####彩虹六号udp连接#######
-  - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com,DIRECT
-  - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com,DIRECT
-  - DOMAIN-SUFFIX,lb-rdv-r6-pc-net1.ubisoft.com,DIRECT  ##R6地区选择
+  - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com
+  - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com
+  - DOMAIN-SUFFIX,lb-rdv-r6-pc-net1.ubisoft.com  ##R6地区选择
 
   
   
 #######steam########
-  - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT ##steam地区选择
+  - DOMAIN-SUFFIX,cm.steampowered.com ##steam地区选择
