@@ -1,0 +1,11 @@
+#2020.7.30
+#
+#
+#此为直连的游戏域名
+#通常为udp连接，直连延迟更低
+#
+
+payload:
+  ####彩虹六号udp连接#######
+  - DOMAIN-SUFFIX,lb-rdv-r6-pc-ne1.ubisoft.com,DIRECT
+  - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com,DIRECT
