@@ -1,18 +1,8 @@
 #Clash轻量化订阅
 payload:
-#
-#
-######DOMAIN-KEYWORD########
-#
-#
   - DOMAIN-KEYWORD,mahjongsoul
   - DOMAIN-KEYWORD,kde
   - DOMAIN-KEYWORD,pling
-#
-# 
-######DOMAIN#######
-#
-#
   - DOMAIN,bing.com
   - DOMAIN,rewards.microsoft.com
   - DOMAIN,v2ex.com
@@ -20,11 +10,6 @@ payload:
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
-#
-#
-######DOMAIN-SUFFIX######
-#
-#
   - DOMAIN-SUFFIX,labondemand.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,getmailspring.com
@@ -35,7 +20,6 @@ payload:
   - DOMAIN-SUFFIX,hkdtmb.com
   - DOMAIN-SUFFIX,flr-eu2.cbox.ws
   - DOMAIN-SUFFIX,www5.cbox.ws
-      ####secret######
   - DOMAIN-SUFFIX,iwara.tv
   - DOMAIN-SUFFIX,pronhub.com
   - DOMAIN-SUFFIX,xvideos.com
