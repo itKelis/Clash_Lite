@@ -1,3 +1,42 @@
 #Clash轻量化订阅
 payload:
-  
+#
+#
+######DOMAIN-KEYWORD########
+#
+#
+  - DOMAIN-KEYWORD,mahjongsoul,PROXY
+  - DOMAIN-KEYWORD,kde,PROXY
+  - DOMAIN-KEYWORD,pling,PROXY
+  - DOMAIN-KEYWORD,sharepoint,DIRECT
+  - DOMAIN-KEYWORD,onmicrosoft,DIRECT
+#
+# 
+######DOMAIN#######
+#
+#
+  - DOMAIN,rewards.microsoft.com,PROXY
+  - DOMAIN,v2ex.com,PROXY
+  - DOMAIN,edge.microsoft.com,PROXY
+  - DOMAIN,dns.weixin.qq.com,PROXY
+  - DOMAIN,addons.mozilla.org,PROXY
+  - DOMAIN,igg-games.com,PROXY
+#
+#
+######DOMAIN-SUFFIX######
+#
+#
+  - DOMAIN-SUFFIX,labondemand.com,PROXY
+  - DOMAIN-SUFFIX,bing.com,PROXY
+  - DOMAIN-SUFFIX,getmailspring.com,PROXY
+  - DOMAIN-SUFFIX,gtlab.com,PROXY
+  - DOMAIN-SUFFIX,madou.club,PROXY
+  - DOMAIN-SUFFIX,hkanime.com,PROXY
+  - DOMAIN-SUFFIX,konami.net,PROXY
+  - DOMAIN-SUFFIX,hkdtmb.com,PROXY
+  - DOMAIN-SUFFIX,flr-eu2.cbox.ws,PROXY
+  - DOMAIN-SUFFIX,www5.cbox.ws,PROXY
+      ####secret######
+  - DOMAIN-SUFFIX,iwara.tv,PROXY
+  - DOMAIN-SUFFIX,pronhub.com
+  - DOMAIN-SUFFIX,xvideos.com
