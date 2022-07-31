@@ -121,7 +121,7 @@ rules:
   - RULE-SET,spotify,DIRECT
   - RULE-SET,douyin,DIRECT
   - RULE-SET,bilibili,DIRECT
-  - RULE-SET,applications,DIRECT
+  - RULE-SET,applications,高负载
   - RULE-SET,liteproxy,PROXY
   #- RULE-SET,private,DIRECT
   - RULE-SET,google,PROXY
