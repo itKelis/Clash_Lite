@@ -10,7 +10,6 @@ payload:
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
-  - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,labondemand.com
   - DOMAIN-SUFFIX,cn.bing.com
   - DOMAIN-SUFFIX,getmailspring.com
