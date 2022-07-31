@@ -16,19 +16,15 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  default-nameserver:
-    - '221.179.38.7'
-    - '114.114.114.114'
+  #default-nameserver:
+    #- '221.179.38.7'
+    #- '114.114.114.114'
     #- 223.5.5.5
     #- 119.29.29.29
   nameserver:
-    - 'dot.360.cn'
-    - 'doh.pub'
-    - 'dns.alidns.com'
-    #- '180.76.76.76'
-     #- 223.5.5.5
-     #- 119.29.29.29
-     #- dhcp://en0
+     - udp://221.179.38.7
+     - udp://8.8.4.4
+     - udp://223.5.5.5
 #  fallback:
 #    - tls:223.5.5.5:853
 #    - tcp://223.5.5.5   # DNSPod DoH
@@ -78,7 +74,7 @@ proxy-groups:
   - name: 🔄 自动测速
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
+    interval: 1800
     proxies: 
         - DIRECT
   - name: 🎮 游戏节点
