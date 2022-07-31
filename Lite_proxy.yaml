@@ -11,7 +11,9 @@ payload:
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
+  - DOMAIN-SUFFIX,douyinvod.com
   - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,ecmwf.int
   - DOMAIN-SUFFIX,labondemand.com
   - DOMAIN-SUFFIX,cn.bing.com
