@@ -128,6 +128,7 @@ rules:
   - RULE-SET,applications,高负载
   - RULE-SET,liteproxy,PROXY
   #- RULE-SET,private,DIRECT
+  - RULE-SET,wiki,PROXY
   - RULE-SET,google,PROXY
   - RULE-SET,twitter,PROXY
   - RULE-SET,telegram,PROXY
@@ -168,6 +169,11 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     path: ./ruleset/google.yaml
   #不同公司
+  wiki:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wikipedia/Wikipedia.yaml
+    path: ./ruleset/wiki.yaml
   reddit:
     type: http
     behavior: classical
