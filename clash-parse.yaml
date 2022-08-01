@@ -140,10 +140,9 @@ rules:
   - RULE-SET,pixiv,PROXY
   - RULE-SET,reddit,PROXY
   - RULE-SET,cloudflare,PROXY
+  - RULE-SET,globalmedia,PROXY
   - RULE-SET,reject,🛑 广告拦截
   - RULE-SET,advertising,🛑 广告拦截
-  #- RULE-SET,direct,DIRECT
-  #- RULE-SET,gfw,PROXY
   - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
 proxy-providers: {}
@@ -184,6 +183,11 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Reddit/Reddit.yaml
     path: ./ruleset/reddit.yaml
+  globalmedia:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml
+    path: ./ruleset/globalmedia.yaml
   spotify:
     type: http
     behavior: classical
