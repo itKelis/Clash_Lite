@@ -8,7 +8,7 @@ ipv6: false
 udp: true
 log-level: info
 external-controller: 0.0.0.0:9090
-secret: 26bcc253-c75d-438a-874d-6e0344843bda
+
 dns:
   enable: true 
   ipv6: false
@@ -23,7 +23,6 @@ dns:
     #- 119.29.29.29
   nameserver:
     - tls://dot.pub:853
-    - tls://223.5.5.5:853
 #  fallback:
 #    - tls:223.5.5.5:853
 #    - tcp://223.5.5.5   # DNSPod DoH
