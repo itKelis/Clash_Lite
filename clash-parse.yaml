@@ -16,17 +16,17 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  #default-nameserver:
-    #- '221.179.38.7'
-    #- '114.114.114.114'
-    #- 223.5.5.5
-    #- 119.29.29.29
+
   nameserver:
-    - tls://dot.pub:853
-#  fallback:
-#    - tls:223.5.5.5:853
-#    - tcp://223.5.5.5   # DNSPod DoH
-#    - tcp://119.29.29.29  # 阿里 DoH
+    #- 119.29.29.29
+    #- 223.5.5.5
+    - 120.196.165.24
+    - 211.136.192.6
+  fallback:
+    - udp://202.14.67.4:53
+    - udp://202.14.67.14:53
+    - udp://210.0.128.251:53
+    - udp://8.8.8.8:53
   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
     # === Local ===
     - "*.lan"
@@ -47,12 +47,25 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-      - 210.72.145.39/24
+    domain:                          #列表中的域名使用fallback返回解析结果
+    - '+.google.com'
+    - '+.facebook.com'
+    - '+.youtube.com'
+    - '+.googlevideo.com'
+    - '+.twitter.com'
+    - '+.xn--ngstr-lra8j.com'
+    - '+.google.cn'
+    - '+.googleapis.cn'
+    - '+.googleapis.com'
+    - '+.gvt1.com'
 
 interface-name: wlan0
-#ebpf:
-#    redirect-to-tun:
-#        - wlan0
+ebpf:
+    redirect-to-tun:
+        - wlan0
+auto-redir:
+  enable: true
+  auto-route: true
 tun:
   enable: true
   stack: system
