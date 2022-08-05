@@ -147,7 +147,7 @@ rules:
   - RULE-SET,reject,🛑 广告拦截
   - RULE-SET,advertising,🛑 广告拦截
   - RULE-SET,gfw,PROXY
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN,DIRECT,no-resolve
   - MATCH,🐟 漏网之鱼
 proxy-providers: {}
 rule-providers:
