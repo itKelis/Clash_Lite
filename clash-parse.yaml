@@ -18,12 +18,12 @@ dns:
   use-hosts: true
 
   nameserver:
-    #- 119.29.29.29
-    #- 223.5.5.5
-    - 120.196.165.24
-    - 211.136.192.6
+    - 119.29.29.29
+    - 223.5.5.5
+    - tls://1.12.12.12:853
+    - tls://223.6.6.6:853
   fallback:
-    - udp://202.14.67.4:53
+#     - udp://202.14.67.4:53
     - udp://202.14.67.14:53
     - udp://210.0.128.251:53
     - udp://8.8.8.8:53
@@ -60,17 +60,14 @@ dns:
     - '+.gvt1.com'
 
 interface-name: wlan0
-ebpf:
-    redirect-to-tun:
-        - wlan0
-auto-redir:
-  enable: true
-  auto-route: true
+experimental:
+  sniff-tls-sni: true
 tun:
   enable: true
   stack: system
   dns-hijack:
     - any:53
+    - tcp://any:53
   auto-route: true
 
 proxies:
