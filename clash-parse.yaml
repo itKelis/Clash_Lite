@@ -18,11 +18,13 @@ dns:
   use-hosts: true
 
   nameserver:
-    - 101.6.6.6:5353
-    - tls://1.12.12.12:853
-  fallback:
-    - udp://211.115.194.4:53
-    - 1.0.0.1
+    - https://dns.ipv6dns.com/dns-query
+    - https://101.6.6.6:8443/dns-query
+#   fallback:
+#    - udp://211.115.194.4:53
+#    - 1.0.0.1
+  #       - https://public.dns.iij.jp/dns-query
+#   #- https://doh.opendns.com/dns-query
 #     - udp://202.14.67.4:53
 #     - udp://210.0.128.251:53
   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
