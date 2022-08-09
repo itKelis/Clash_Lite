@@ -113,6 +113,7 @@ proxy-groups:
 rules:
   #- DOMAIN,googleapis.com,PROXY
   - DOMAIN-KEYWORD,baidu,DIRECT
+  - DOMAIN-SUFFIX,yacd.haishan.me,DIRECT
   #- DOMAIN,graph.microsoft.com,高负载
   #- DOMAIN,client.wns.windows.com,DIRECT
   #- DOMAIN,beige.xboxservices.com,PROXY
