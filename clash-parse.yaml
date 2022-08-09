@@ -19,6 +19,7 @@ dns:
 
   nameserver:
     - https://dns.ipv6dns.com/dns-query
+#     - https://221.228.217.28/dns-query
     - https://101.6.6.6:8443/dns-query
 #   fallback:
 #    - udp://211.115.194.4:53
