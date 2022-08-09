@@ -18,6 +18,9 @@ dns:
   use-hosts: true
 
   nameserver:
+  - 221.179.38.7
+  - 119.29.29.29
+  fallback:
     - https://dns.ipv6dns.com/dns-query
 #     - https://221.228.217.28/dns-query
     - https://101.6.6.6:8443/dns-query
