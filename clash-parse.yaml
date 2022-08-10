@@ -74,8 +74,9 @@ tun:
     - tcp://any:53
   auto-route: true
 
-profiles:
+profile:
   store-fake-ip: true
+  tracing: true
 proxies:
   - name: 
 
