@@ -17,8 +17,8 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
-  - https://dns.ipv6dns.com/dns-query
-  - https://101.6.6.6:8443/dns-query
+  - 'https://dns.ipv6dns.com/dns-query'
+  - 'https://101.6.6.6:8443/dns-query'
 #    - udp://211.115.194.4:53
 #    - 1.0.0.1
   #       - https://public.dns.iij.jp/dns-query
