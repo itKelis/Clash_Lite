@@ -16,9 +16,9 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  server:
-    - https://dns.ipv6dns.com/dns-query
-    - https://101.6.6.6:8443/dns-query
+  nameserver:
+  - https://dns.ipv6dns.com/dns-query
+  - https://101.6.6.6:8443/dns-query
 #   fallback:
 #    - udp://211.115.194.4:53
 #    - 1.0.0.1
