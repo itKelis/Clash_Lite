@@ -16,11 +16,6 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-
-  nameserver:
-  - 221.179.38.7
-  - 119.29.29.29
-  fallback:
     - https://dns.ipv6dns.com/dns-query
 #     - https://221.228.217.28/dns-query
     - https://101.6.6.6:8443/dns-query
@@ -72,7 +67,9 @@ tun:
   dns-hijack:
     - any:53
     - tcp://any:53
-  auto-route: true
+ebpf:
+redirect-to-tun:
+  - wlan0
 
 profile:
   store-fake-ip: true
