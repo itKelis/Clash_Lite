@@ -17,8 +17,10 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
-  - 'https://dns.ipv6dns.com/dns-query'
-  - 'https://101.6.6.6:8443/dns-query'
+  - 211.136.20.203
+  - 211.136.17.107
+#   - 'https://dns.ipv6dns.com/dns-query'
+#   - 'https://101.6.6.6:8443/dns-query'
 #    - udp://211.115.194.4:53
 #    - 1.0.0.1
   #       - https://public.dns.iij.jp/dns-query
@@ -66,9 +68,7 @@ tun:
   dns-hijack:
     - any:53
     - tcp://any:53
-ebpf:
-  redirect-to-tun:
-  - wlan0
+  auto-route: true
 
 profile:
   store-fake-ip: true
