@@ -2,7 +2,6 @@ mixed-port: 7890
 #redir-port: 7892
 allow-lan: true
 bind-address: "*"
-routing-mark: 6666
 mode: rule
 ipv6: false
 udp: true
