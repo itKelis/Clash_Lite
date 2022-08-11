@@ -15,7 +15,7 @@ dns:
   #listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  use-hosts: true
+  use-hosts: false
   nameserver:
   - 211.136.20.203
   - 211.136.17.107
@@ -67,7 +67,6 @@ tun:
   stack: system
   dns-hijack:
     - any:53
-    - tcp://any:53
   auto-route: true
 
 profile:
