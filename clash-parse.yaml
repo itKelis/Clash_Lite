@@ -25,37 +25,37 @@ dns:
 #   #- https://doh.opendns.com/dns-query
 #     - udp://202.14.67.4:53
 #     - udp://210.0.128.251:53
-  fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
-    # === Local ===
-    - "*.lan"
-    - "*.local"
-    # === Microsoft Windows Serivice ===
-    - "*.msftncsi.com"
-    - "*.msftconnecttest.com"
-    - 'ntp1.*.com'
-    - 'ntp2.*.com'
-    - 'ntp3.*.com'
-    - 'ntp4.*.com'
-    - 'ntp5.*.com'
-    - 'ntp6.*.com'
-    - 'ntp7.*.com'
-  fallback-filter:
-    geoip: false
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
-    - 0.0.0.0/32
-    domain:                          #列表中的域名使用fallback返回解析结果
-    - '+.google.com'
-    - '+.facebook.com'
-    - '+.youtube.com'
-    - '+.googlevideo.com'
-    - '+.twitter.com'
-    - '+.xn--ngstr-lra8j.com'
-    - '+.google.cn'
-    - '+.googleapis.cn'
-    - '+.googleapis.com'
-    - '+.gvt1.com'
+#   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
+#     # === Local ===
+#     - "*.lan"
+#     - "*.local"
+#     # === Microsoft Windows Serivice ===
+#     - "*.msftncsi.com"
+#     - "*.msftconnecttest.com"
+#     - 'ntp1.*.com'
+#     - 'ntp2.*.com'
+#     - 'ntp3.*.com'
+#     - 'ntp4.*.com'
+#     - 'ntp5.*.com'
+#     - 'ntp6.*.com'
+#     - 'ntp7.*.com'
+#   fallback-filter:
+#     geoip: false
+#     geoip-code: CN
+#     ipcidr:
+#     - 240.0.0.0/4
+#     - 0.0.0.0/32
+#     domain:                          #列表中的域名使用fallback返回解析结果
+#     - '+.google.com'
+#     - '+.facebook.com'
+#     - '+.youtube.com'
+#     - '+.googlevideo.com'
+#     - '+.twitter.com'
+#     - '+.xn--ngstr-lra8j.com'
+#     - '+.google.cn'
+#     - '+.googleapis.cn'
+#     - '+.googleapis.com'
+#     - '+.gvt1.com'
 
 interface-name: wlan0
 experimental:
@@ -67,7 +67,7 @@ tun:
     - any:53
     - tcp://any:53
 ebpf:
-redirect-to-tun:
+  redirect-to-tun:
   - wlan0
 
 profile:
