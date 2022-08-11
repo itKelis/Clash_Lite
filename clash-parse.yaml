@@ -16,14 +16,14 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: false
+  default-nameserver:
+  - 211.136.20.203 #移动
+  - 120.196.165.24 #电信
   nameserver:
-  - 211.136.20.203
-  - 211.136.17.107
+  - tls://dot-237a95ba.dot.pub:853
 #   - 'https://dns.ipv6dns.com/dns-query'
 #   - 'https://101.6.6.6:8443/dns-query'
 #    - udp://211.115.194.4:53
-#    - 1.0.0.1
-  #       - https://public.dns.iij.jp/dns-query
 #   #- https://doh.opendns.com/dns-query
 #     - udp://202.14.67.4:53
 #     - udp://210.0.128.251:53
