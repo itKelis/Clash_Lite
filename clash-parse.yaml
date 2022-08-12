@@ -9,23 +9,19 @@ log-level: info
 external-controller: 0.0.0.0:9090
 
 dns:
-  enable: false
+  enable: true
   ipv6: false
-  #listen: 0.0.0.0:53
-  enhanced-mode: fake-ip
+#   listen: 0.0.0.0:53
+  enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
   use-hosts: false
-  default-nameserver:
-  - 211.136.20.203 #移动
-  - 120.196.165.24 #电信
+#   default-nameserver:
+#   - 211.136.20.203 #移动
+#   - 120.196.165.24 #电信
   nameserver:
+  - 223.6.6.6
   - tls://dot-237a95ba.dot.pub:853
-#   - 'https://dns.ipv6dns.com/dns-query'
-#   - 'https://101.6.6.6:8443/dns-query'
-#    - udp://211.115.194.4:53
-#   #- https://doh.opendns.com/dns-query
-#     - udp://202.14.67.4:53
-#     - udp://210.0.128.251:53
+
 #   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
 #     # === Local ===
 #     - "*.lan"
@@ -59,14 +55,12 @@ dns:
 #     - '+.gvt1.com'
 
 interface-name: wlan0
-experimental:
-  sniff-tls-sni: true
 tun:
   enable: true
-  stack: system
-#   dns-hijack:
-#     - any:53
-#   auto-route: true
+  stack: gvisor
+  dns-hijack:
+    - any:53
+  auto-route: true
 
 profile:
   store-fake-ip: true
