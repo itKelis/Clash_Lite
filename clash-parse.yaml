@@ -19,7 +19,8 @@ dns:
 #   - 211.136.20.203 #移动
 #   - 120.196.165.24 #电信
   nameserver:
-  - 223.6.6.6
+  - tls://223.6.6.6:853
+  - tls://1.12.12.12:853
   - tls://dot-237a95ba.dot.pub:853
 
 #   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
@@ -60,7 +61,7 @@ tun:
   stack: gvisor
   dns-hijack:
     - any:53
-  auto-route: true
+#   auto-route: true
 
 profile:
   store-fake-ip: true
