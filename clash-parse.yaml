@@ -12,15 +12,15 @@ dns:
   enable: true
   ipv6: false
 #   listen: 0.0.0.0:53
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: false
 #   default-nameserver:
 #   - 211.136.20.203 #移动
 #   - 120.196.165.24 #电信
   nameserver:
-  - tls://223.6.6.6:853
-  - tls://1.12.12.12:853
+  - tls://223.5.5.5:853
+  - tls://dns.alidns.com:853
   - tls://dot-237a95ba.dot.pub:853
 
 #   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
@@ -58,14 +58,14 @@ dns:
 interface-name: wlan0
 tun:
   enable: true
-  stack: gvisor
+  stack: system
   dns-hijack:
     - any:53
 #   auto-route: true
 
 profile:
   store-fake-ip: true
-  tracing: true
+#   tracing: true
 proxies:
   - name: 
 
@@ -143,7 +143,7 @@ rules:
   - RULE-SET,gfw,PROXY
   - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
-proxy-providers: {}
+# proxy-providers: {}
 rule-providers:
   reject:
     type: http
