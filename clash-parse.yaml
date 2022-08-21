@@ -19,8 +19,10 @@ dns:
 #   - 211.136.20.203 #移动
 #   - 120.196.165.24 #电信
   nameserver:
-  - tls://dns.alidns.com:853
-  - tls://dot-237a95ba.dot.pub:853
+#   - tls://dns.alidns.com:853
+#   - tls://dot-237a95ba.dot.pub:853
+  - https://doh-237a95ba.doh.pub/dns-query
+  - tls://i.passcloud.xyz:5432
 
 #   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
 #     # === Local ===
