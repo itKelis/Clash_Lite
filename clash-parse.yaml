@@ -60,7 +60,7 @@ tun:
   stack: system
   dns-hijack:
     - any:53
-  - auto-route: true
+  auto-route: true
 
 profile:
   store-fake-ip: true
