@@ -55,12 +55,6 @@ dns:
 #     - '+.gvt1.com'
 
 interface-name: wlan0
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - any:53
-  auto-route: true
 
 profile:
   store-fake-ip: true
