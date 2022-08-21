@@ -19,7 +19,6 @@ dns:
 #   - 211.136.20.203 #移动
 #   - 120.196.165.24 #电信
   nameserver:
-  - tls://223.5.5.5:853
   - tls://dns.alidns.com:853
   - tls://dot-237a95ba.dot.pub:853
 
@@ -61,7 +60,7 @@ tun:
   stack: system
   dns-hijack:
     - any:53
-#   auto-route: true
+  - auto-route: true
 
 profile:
   store-fake-ip: true
