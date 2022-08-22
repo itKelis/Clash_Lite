@@ -106,6 +106,7 @@ proxy-groups:
       - 🔰 选择节点
 rules:
   #- DOMAIN,googleapis.com,PROXY
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT,no-resolve
   - DOMAIN-KEYWORD,baidu,DIRECT
   - DOMAIN-SUFFIX,yacd.haishan.me,DIRECT
   #- DOMAIN,graph.microsoft.com,高负载
@@ -140,7 +141,7 @@ rules:
   - RULE-SET,reject,🛑 广告拦截
   - RULE-SET,advertising,🛑 广告拦截
   - RULE-SET,gfw,PROXY
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN,DIRECT,no-resolve
   - MATCH,🐟 漏网之鱼
 # proxy-providers: {}
 rule-providers:
