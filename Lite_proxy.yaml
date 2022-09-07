@@ -32,3 +32,4 @@ payload:
   - DOMAIN-SUFFIX,tumblr.co
   - DOMAIN-SUFFIX,tumblr.com
   - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,cdn.winget.microsoft.com
