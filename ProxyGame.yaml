@@ -15,6 +15,7 @@ payload:
   - DOMAIN,channel-service.upc.ubi.com
   - DOMAIN,r6pcaddons.azureedge.net
   - DOMAIN,game-page.cdn.ubisoft.com
+  - DOMAIN,lb-rdv-r6-pc-ne1.ubisoft.com
   - DOMAIN-SUFFIX,dmx.upc.ubisoft.com
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
 #####育碧域名
