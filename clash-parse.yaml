@@ -21,8 +21,8 @@ dns:
   nameserver:
 #   - tls://dns.alidns.com:853
 #   - tls://dot-237a95ba.dot.pub:853
-  - https://doh-237a95ba.doh.pub/dns-query
-  - tls://i.passcloud.xyz:5432
+#   - https://doh-237a95ba.doh.pub/dns-query
+  - tls://a.passcloud.xyz:5432
 
 #   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
 #     # === Local ===
@@ -56,7 +56,8 @@ dns:
 #     - '+.googleapis.com'
 #     - '+.gvt1.com'
 
-interface-name: wlan0
+# interface-name: wlan0
+interface-name: eth0
 tun:
   enable: true
   stake: system
