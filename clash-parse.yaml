@@ -22,8 +22,8 @@ dns:
 #   - tls://dns.alidns.com:853
 #   - tls://dot-237a95ba.dot.pub:853
   - https://a.passcloud.xyz/dns-query
-  - https://doh-237a95ba.doh.pub/dns-query
-#   - tls://a.passcloud.xyz:5432
+#   - https://doh-237a95ba.doh.pub/dns-query
+  - tls://a.passcloud.xyz:5432
 
 #   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
 #     # === Local ===
