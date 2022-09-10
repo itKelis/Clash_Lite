@@ -33,4 +33,4 @@ payload:
   - DOMAIN-SUFFIX,tumblr.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,winget.microsoft.com
-  - DOMAIN-SUFFIX,outlook.office365.com
+  - DOMAIN-SUFFIX,self.events.data.microsoft.com
