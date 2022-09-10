@@ -25,13 +25,14 @@ dns:
 #   - https://doh-237a95ba.doh.pub/dns-query
   - tls://a.passcloud.xyz:5432
 
-#   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
+  fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
 #     # === Local ===
 #     - "*.lan"
 #     - "*.local"
 #     # === Microsoft Windows Serivice ===
-#     - "*.msftncsi.com"
-#     - "*.msftconnecttest.com"
+   - "*dns.msftncsi.com"
+   - "*.msftncsi.com"
+   - "*.msftconnecttest.com"
 #     - 'ntp1.*.com'
 #     - 'ntp2.*.com'
 #     - 'ntp3.*.com'
