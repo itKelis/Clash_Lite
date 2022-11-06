@@ -34,3 +34,4 @@ payload:
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,winget.microsoft.com
   - DOMAIN-SUFFIX,self.events.data.microsoft.com
+  - DOMAIN-SUFFIX,yahoo.com
