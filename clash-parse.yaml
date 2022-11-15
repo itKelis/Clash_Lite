@@ -133,7 +133,7 @@ rules:
   - RULE-SET,bilibili,DIRECT
   - RULE-SET,bytedance,DIRECT
   - RULE-SET,liteproxy,PROXY
-  - PROCESS-NAME,aria2c,高负载
+#  - PROCESS-NAME,aria2c,高负载
   - RULE-SET,wiki,PROXY
   - RULE-SET,google,PROXY
   - RULE-SET,twitter,PROXY
