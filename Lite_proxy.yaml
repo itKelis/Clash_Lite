@@ -18,7 +18,7 @@ payload:
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,ecmwf.int
   - DOMAIN-SUFFIX,labondemand.com
-  - DOMAIN-SUFFIX,cn.bing.com
+  - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,getmailspring.com
   - DOMAIN-SUFFIX,gtlab.com
   - DOMAIN-SUFFIX,hkanime.com
