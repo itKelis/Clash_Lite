@@ -11,7 +11,7 @@ payload:
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
-  - DOMAIN,accounts.nintendo.com
+  - DOMAIN-SUFFIX,accounts.nintendo.com
   - DOMAIN-SUFFIX,douyinvod.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,byteimg.com
