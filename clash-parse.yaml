@@ -65,10 +65,10 @@ tun:
   enable: true
   stake: system
   dns-hijack:
-    - any:53
+    - udp://any:53
   auto-route: true
 profile:
-  store-fake-ip: true
+  store-fake-ip: false
 #   tracing: true
 proxies:
   - name: 
