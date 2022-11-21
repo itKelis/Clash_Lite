@@ -11,6 +11,7 @@ payload:
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
+  - DOMAIN,iqiq.io
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,accounts.nintendo.com
   - DOMAIN-SUFFIX,douyinvod.com
