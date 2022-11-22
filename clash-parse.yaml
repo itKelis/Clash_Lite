@@ -110,7 +110,7 @@ proxy-groups:
       - 🔰 选择节点
 rules:
   #- DOMAIN,googleapis.com,PROXY
-  - SRC-IP-CIDR,192.168.1.201/32,DIRECT,no-resolve
+#  - SRC-IP-CIDR,192.168.1.201/32,DIRECT,no-resolve
   - DOMAIN-KEYWORD,baidu,DIRECT
   - DOMAIN-SUFFIX,yacd.haishan.me,DIRECT
   #- DOMAIN,graph.microsoft.com,高负载
@@ -128,12 +128,12 @@ rules:
   - RULE-SET,directgame,DIRECT
   - RULE-SET,proxygame,🎮 游戏节点
   - RULE-SET,youtube,PROXY
+  - RULE-SET,highload,高负载
   - RULE-SET,spotify,DIRECT
   - RULE-SET,douyin,DIRECT
   - RULE-SET,bilibili,DIRECT
   - RULE-SET,bytedance,DIRECT
   - RULE-SET,liteproxy,PROXY
-#  - PROCESS-NAME,aria2c,高负载
   - RULE-SET,wiki,PROXY
   - RULE-SET,google,PROXY
   - RULE-SET,twitter,PROXY
@@ -142,18 +142,16 @@ rules:
   - RULE-SET,reddit,PROXY
   - RULE-SET,cloudflare,PROXY
   - RULE-SET,globalmedia,PROXY
-  - RULE-SET,reject,🛑 广告拦截
-  - RULE-SET,advertising,🛑 广告拦截
   - RULE-SET,gfw,PROXY
   - GEOIP,CN,DIRECT,no-resolve
   - MATCH,🐟 漏网之鱼
 # proxy-providers: {}
 rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-    path: ./ruleset/reject.yaml
+#  reject:
+#    type: http
+#    behavior: domain
+#    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+#    path: ./ruleset/reject.yaml
   telegram:
     type: http
     behavior: classical
@@ -251,8 +249,13 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/itKelis/Clash_Lite/main/Lite_proxy.yaml
     path: ./ruleset/liteproxy.yaml
-  advertising:
+  highload:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
-    path: ./ruleset/Advertising.yaml
+    url: https://raw.githubusercontent.com/itKelis/Clash_Lite/main/highload.yaml
+    path: ./ruleset/highload.yaml
+#  advertising:
+#    type: http
+#    behavior: classical
+#    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+#    path: ./ruleset/Advertising.yaml
