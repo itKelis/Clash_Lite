@@ -12,6 +12,7 @@ payload:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
   - DOMAIN,iqiq.io
+  - DOMAIN-SUFFIX,44pmo.com
   - DOMAIN-SUFFIX,urlgo.run
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,accounts.nintendo.com
