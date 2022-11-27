@@ -63,7 +63,7 @@ dns:
 interface-name: eth0
 tun:
   enable: true
-  stake: system
+  stake: lwip
   dns-hijack:
     - udp://any:53
   auto-route: true
