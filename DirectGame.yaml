@@ -19,4 +19,4 @@ payload:
 
 
 ######brave#########
-  - DOMAIN-SUFFIX,brave.com
+#  - DOMAIN-SUFFIX,brave.com
