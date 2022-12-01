@@ -15,3 +15,8 @@ payload:
   
 #######steam########
   - DOMAIN-SUFFIX,cm.steampowered.com ##steam地区选择
+
+
+
+######brave#########
+  - DOMAIN-SUFFIX,brave.com
