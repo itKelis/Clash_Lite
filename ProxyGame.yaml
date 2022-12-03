@@ -31,4 +31,4 @@ payload:
   - DOMAIN,app-a03.lp1.npns.srv.nintendo.net
   - DOMAIN,t-dce9377b-lp1.lp1.t.npln.srv.nintendo.net
 #####动视
-  - DOMAIN,iw9-steam-loginservice.prod.demonware.net
+  - DOMAIN,demonware.net
