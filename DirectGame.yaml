@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com
   - DOMAIN-SUFFIX,online-services.aws.r6.ubi.com
   - DOMAIN-SUFFIX,lb-rdv-r6-pc-net1.ubisoft.com  ##R6地区选择
+ 
 
   
   
@@ -20,3 +21,4 @@ payload:
 
 ######brave#########
 #  - DOMAIN-SUFFIX,brave.com
+  - DOMAIN,genesis.stun.us.demonware.net
