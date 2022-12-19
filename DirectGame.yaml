@@ -23,3 +23,4 @@ payload:
 #  - DOMAIN-SUFFIX,brave.com
   - DOMAIN,genesis.stun.us.demonware.net
   - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,wpxz.org
