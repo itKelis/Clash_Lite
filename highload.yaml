@@ -1,5 +1,5 @@
 #Clash高负载订阅
 payload:
-  DOMAIN-SUFFIX,megaup.net
-  DOMAIN-SUFFIX,mega.co.nz
-  DOMAIN-SUFFIX,Clicknupload.com
+  - DOMAIN-SUFFIX,megaup.net
+  - DOMAIN-SUFFIX,mega.co.nz
+  - DOMAIN-SUFFIX,Clicknupload.com
