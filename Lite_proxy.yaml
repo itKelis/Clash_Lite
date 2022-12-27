@@ -41,4 +41,5 @@ payload:
   - DOMAIN-SUFFIX,self.events.data.microsoft.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yimg.com
+  - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,mirror.xyz
