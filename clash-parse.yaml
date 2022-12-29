@@ -19,7 +19,7 @@ dns:
 #   - 211.136.20.203 #移动
 #   - 120.196.165.24 #电信
   nameserver:
-    - 192.168.123.1
+    - 192.168.124.1
 #   - tls://dns.alidns.com:853
 #   - tls://dot-237a95ba.dot.pub:853
 #  - https://a.passcloud.xyz/dns-query
