@@ -19,7 +19,8 @@ dns:
 #   - 211.136.20.203 #移动
 #   - 120.196.165.24 #电信
   nameserver:
-    - 192.168.124.1
+#    - 192.168.124.1
+    - dhcp://en0
 #   - tls://dns.alidns.com:853
 #   - tls://dot-237a95ba.dot.pub:853
 #  - https://a.passcloud.xyz/dns-query
@@ -60,13 +61,14 @@ dns:
 #     - '+.gvt1.com'
 
 # interface-name: wlan0
-interface-name: eth0
+#interface-name: eth0
 tun:
   enable: true
   stake: lwip
   dns-hijack:
     - udp://any:53
   auto-route: true
+  auto-detect-interface: true
 profile:
   store-fake-ip: false
 #   tracing: true
