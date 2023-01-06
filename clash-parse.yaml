@@ -20,7 +20,7 @@ dns:
 #   - 120.196.165.24 #电信
   nameserver:
 #    - 192.168.124.1
-    - dhcp://en0
+    - dhcp://wlan0
 #   - tls://dns.alidns.com:853
 #   - tls://dot-237a95ba.dot.pub:853
 #  - https://a.passcloud.xyz/dns-query
