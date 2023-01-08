@@ -127,7 +127,9 @@ rules:
   #- DOMAIN,login.microsoftonline.com,DIRECT
   #- DOMAIN,self.events.data.microsoft,🛑 广告拦截
   #- DOMAIN-SUFFIX,time.windows.com,DIRECT
-  #- DOMAIN-SUFFIX,googlevideo.com,PROXY
+  - DOMAIN-SUFFIX,googlevideo.com,大流量
+  - DOMAIN-SUFFIX,ytimg.com,大流量
+  - DOMAIN-SUFFIX,ggpht.com,大流量
   #Nos
   #- DOMAIN-SUFFIX,iwara.tv,PROXY
 #规则集
@@ -138,7 +140,7 @@ rules:
   - RULE-SET,douyin,DIRECT
   - RULE-SET,bilibili,DIRECT
   - RULE-SET,bytedance,DIRECT
-  - RULE-SET,youtube,大流量
+  - RULE-SET,youtube,PROXY
   - RULE-SET,liteproxy,PROXY
   - RULE-SET,wiki,PROXY
   - RULE-SET,google,PROXY
