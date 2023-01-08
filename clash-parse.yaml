@@ -102,6 +102,10 @@ proxy-groups:
       - DIRECT
       - REJECT
       - PROXY
+  - name: 大流量
+    type: select
+    proxies:
+       - DIRECT
   - name: 高负载
     type: select
     proxies:
