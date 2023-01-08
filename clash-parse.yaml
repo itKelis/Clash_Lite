@@ -133,12 +133,13 @@ rules:
 #规则集
   - RULE-SET,directgame,DIRECT
   - RULE-SET,proxygame,🎮 游戏节点
-  - RULE-SET,youtube,PROXY
+
   - RULE-SET,highload,高负载
   - RULE-SET,spotify,DIRECT
   - RULE-SET,douyin,DIRECT
   - RULE-SET,bilibili,DIRECT
   - RULE-SET,bytedance,DIRECT
+  - RULE-SET,youtube,大流量
   - RULE-SET,liteproxy,PROXY
   - RULE-SET,wiki,PROXY
   - RULE-SET,google,PROXY
