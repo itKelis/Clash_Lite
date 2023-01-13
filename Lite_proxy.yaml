@@ -42,6 +42,7 @@ payload:
   - DOMAIN-SUFFIX,self.events.data.microsoft.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yimg.com
+  - DOMAIN-SUFFIX,archlinux.org
   #- DOMAIN,talon-service-prod.ecosec.on.epicgames.com
   #- DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,mirror.xyz
