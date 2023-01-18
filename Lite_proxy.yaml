@@ -46,3 +46,4 @@ payload:
   #- DOMAIN,talon-service-prod.ecosec.on.epicgames.com
   #- DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,mirror.xyz
+  - DOMAIN-SUFFIX,openai.com
