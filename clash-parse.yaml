@@ -148,7 +148,7 @@ rules:
   - RULE-SET,telegram,PROXY
   - RULE-SET,pixiv,PROXY
   - RULE-SET,reddit,PROXY
-  - RULE-SET,cloudflare,PROXY
+#   - RULE-SET,cloudflare,PROXY
   - RULE-SET,globalmedia,PROXY
   - RULE-SET,gfw,PROXY
   - GEOIP,CN,DIRECT,no-resolve
