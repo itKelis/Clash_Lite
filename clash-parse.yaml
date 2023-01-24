@@ -81,39 +81,54 @@ proxy-groups:
     proxies:
       - 🔄 自动测速
       - DIRECT
+      
   - name: 🔄 自动测速
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 1800
     proxies: 
         - DIRECT
+        
   - name: 🎮 游戏节点
     type: select
     proxies:
       - DIRECT
+
+  - name: 📺 流媒体
+    type: select
+    proxies:
+       - DIRECT
+       
+  - name: bilibili
+    type: select
+    proxies:
+       - DIRECT
+       - 🇭🇰 香港
+       - 🇹🇼 台湾
+       
+  - name: 高负载
+    type: select
+    proxies:
+      - DIRECT
+      
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - DIRECT
       - PROXY
+      
   - name: 🛑 广告拦截
     type: select
     proxies:
       - DIRECT
       - REJECT
       - PROXY
-  - name: 大流量
-    type: select
-    proxies:
-       - DIRECT
-  - name: 高负载
-    type: select
-    proxies:
-      - DIRECT
+      
   - name: PROXY
     type: select
     proxies:
       - 🔰 选择节点
+  - name
 rules:
   #- DOMAIN,googleapis.com,PROXY
 #  - SRC-IP-CIDR,192.168.1.201/32,DIRECT,no-resolve
