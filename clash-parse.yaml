@@ -142,9 +142,9 @@ rules:
   #- DOMAIN,login.microsoftonline.com,DIRECT
   #- DOMAIN,self.events.data.microsoft,🛑 广告拦截
   #- DOMAIN-SUFFIX,time.windows.com,DIRECT
-  - DOMAIN-SUFFIX,googlevideo.com,大流量
-  - DOMAIN-SUFFIX,ytimg.com,大流量
-  - DOMAIN-SUFFIX,ggpht.com,大流量
+  - DOMAIN-SUFFIX,googlevideo.com,📺 流媒体
+  - DOMAIN-SUFFIX,ytimg.com,📺 流媒体
+  - DOMAIN-SUFFIX,ggpht.com,📺 流媒体
   #Nos
   #- DOMAIN-SUFFIX,iwara.tv,PROXY
 #规则集
