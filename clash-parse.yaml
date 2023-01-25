@@ -145,6 +145,7 @@ rules:
   - DOMAIN-SUFFIX,googlevideo.com,📺 流媒体
   - DOMAIN-SUFFIX,ytimg.com,📺 流媒体
   - DOMAIN-SUFFIX,ggpht.com,📺 流媒体
+  - DOMAIN-SUFFIX,bilibili.com,bilibili
   #Nos
   #- DOMAIN-SUFFIX,iwara.tv,PROXY
 #规则集
