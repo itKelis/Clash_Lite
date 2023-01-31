@@ -1,8 +1,8 @@
 # Clash规则
 
 ## 文件介绍
-'''
-irectGame.yaml ---------------- 能够直连的游戏域名
+
+DirectGame.yaml ---------------- 能够直连的游戏域名
 
 Lite_Proxy.yaml ---------------- 自定义的需要被代理的域名
 
@@ -18,4 +18,3 @@ config.yaml     ---------------- 使用最新的proxy-provider字段的配置，
 
 highload.yaml   ---------------- 能够直连的国外网盘域名
 
-'''
