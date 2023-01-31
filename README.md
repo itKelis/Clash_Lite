@@ -1,8 +1,8 @@
 # Clash规则
 
 ## 文件介绍
-DirectGame.yaml ---------------- 能够直连的游戏域名
-Lite_Proxy.yaml ---------------- 自定义的需要被代理的域名
+'irectGame.yaml ---------------- 能够直连的游戏域名
+'Lite_Proxy.yaml ---------------- 自定义的需要被代理的域名
 ProxyGame.yaml  ---------------- 需要被代理的游戏域名（包括游戏平台的连接）
 clash-parse.py  ---------------- 自动转换订阅的python脚本，能整合多个机场订阅，并自动识别不同国家并分类，最后保存为config1.yaml
 clash-parse.yaml---------------- 配合clash-parse.py使用，作为订阅转换的基础
