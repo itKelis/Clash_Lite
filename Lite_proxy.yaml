@@ -44,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,yimg.com
   - DOMAIN-SUFFIX,archlinux.org
   - DOMAIN-SUFFIX,bloomberg.com
+  - DOMAIN-SUFFIX,yarnpkg.com
   #- DOMAIN,talon-service-prod.ecosec.on.epicgames.com
   #- DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,steamcommunity.com
