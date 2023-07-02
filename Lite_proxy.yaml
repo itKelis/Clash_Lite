@@ -5,6 +5,7 @@ payload:
   - DOMAIN-KEYWORD,pling
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN,bing.com
+  - DOMAIN,moes.lnaspiring.com
   - DOMAIN,rewards.microsoft.com
   - DOMAIN,v2ex.com
   - DOMAIN,edge.microsoft.com
