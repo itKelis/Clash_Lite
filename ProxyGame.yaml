@@ -33,3 +33,6 @@ payload:
 #####动视
   - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,callofduty.com
+  - PROCESS-NAME,pcap2socks.exe
+####微软
+  - DOMAIN-SUFFIX,xboxlive.com
