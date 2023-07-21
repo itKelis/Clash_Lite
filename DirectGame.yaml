@@ -16,6 +16,12 @@ payload:
   
 #######steam########
   - DOMAIN-SUFFIX,cm.steampowered.com ##steam地区选择
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,test.steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,api.steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,rmbgame.net,DIRECT
 
 
 
