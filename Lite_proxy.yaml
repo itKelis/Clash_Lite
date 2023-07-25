@@ -52,3 +52,12 @@ payload:
   - DOMAIN-SUFFIX,mirror.xyz
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,civitai.com
+  - #####育碧域名
+  - DOMAIN-SUFFIX,vivox.com
+  - DOMAIN-SUFFIX,gamecdn.r6q.ubisoft.com
+  - DOMAIN-SUFFIX,lb-rdv-pioneer-prod.ubisoft.com
+  - DOMAIN,addons-manifest.dev.r6q.ubisoft.com
+  - DOMAIN,static8.cdn.ubi.com
+  - DOMAIN,static3.cdn.ubi.com
+  - DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
+  - DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
