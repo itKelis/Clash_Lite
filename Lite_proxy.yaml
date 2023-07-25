@@ -52,7 +52,7 @@ payload:
   - DOMAIN-SUFFIX,mirror.xyz
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,civitai.com
-  - #####育碧域名
+#####育碧域名
   - DOMAIN-SUFFIX,vivox.com
   - DOMAIN-SUFFIX,gamecdn.r6q.ubisoft.com
   - DOMAIN-SUFFIX,lb-rdv-pioneer-prod.ubisoft.com
