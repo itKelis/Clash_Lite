@@ -18,15 +18,7 @@ payload:
   - DOMAIN,lb-rdv-r6-pc-ne1.ubisoft.com
   - DOMAIN-SUFFIX,dmx.upc.ubisoft.com
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
-#####育碧域名
-  - DOMAIN-SUFFIX,vivox.com
-  - DOMAIN-SUFFIX,gamecdn.r6q.ubisoft.com
-  - DOMAIN-SUFFIX,lb-rdv-pioneer-prod.ubisoft.com
-  - DOMAIN,addons-manifest.dev.r6q.ubisoft.com
-  - DOMAIN,static8.cdn.ubi.com
-  - DOMAIN,static3.cdn.ubi.com
-  - DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
-  - DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
+
 #####任天堂
   - DOMAIN,app-a03.lp1.npns.srv.nintendo.net
   - DOMAIN,t-dce9377b-lp1.lp1.t.npln.srv.nintendo.net
@@ -34,5 +26,4 @@ payload:
   - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,callofduty.com
   - PROCESS-NAME,pcap2socks.exe
-####微软
-  - DOMAIN-SUFFIX,xboxlive.com
+
