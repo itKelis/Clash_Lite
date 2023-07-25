@@ -25,5 +25,7 @@ payload:
 #####动视
   - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,callofduty.com
+#####代理游戏
   - PROCESS-NAME,pcap2socks.exe
+  - PROCESS-NAME,MonsterHunterRise.exe
 
