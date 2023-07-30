@@ -5,3 +5,4 @@ payload:
   - DOMAIN-SUFFIX,Clicknupload.com
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,graph.microsoft.com
