@@ -9,7 +9,7 @@ payload:
   - DOMAIN,rewards.microsoft.com
   - DOMAIN,v2ex.com
   - DOMAIN,edge.microsoft.com
-  - DOMAIN,dns.weixin.qq.com
+#  - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
   - DOMAIN,iqiq.io
