@@ -6,3 +6,4 @@ payload:
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,graph.microsoft.com
+  - PROCESS-NAME,aria2c.exe
