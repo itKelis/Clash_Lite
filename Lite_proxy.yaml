@@ -53,9 +53,10 @@ payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,bulianglin.com
-  - DOMAIN,teraboxapp.com
-  - DOMAIN,terabox.com
-  - DOMAIN,4funbox.com
+  - DOMAIN-SUFFIX,teraboxapp.com
+  - DOMAIN-SUFFIX,terabox.com
+  - DOMAIN-SUFFIX,4funbox.com
+  
 #####育碧域名
   - DOMAIN-SUFFIX,vivox.com
   - DOMAIN-SUFFIX,gamecdn.r6q.ubisoft.com
