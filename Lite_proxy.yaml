@@ -1,5 +1,8 @@
 #Clash轻量化订阅
 payload:
+  - IP-CIDR,8.8.4.4
+  - IP-CIDR,8.8.8.8
+  - IP-CIDR,1.1.1.1
   - DOMAIN-KEYWORD,mahjongsoul
   - DOMAIN-KEYWORD,kde
   - DOMAIN-KEYWORD,pling
