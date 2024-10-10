@@ -61,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,4funbox.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,api.ipify.org
+  - DOMAIN-SUFFIX,madou.club
   
 #####育碧域名
   - DOMAIN-SUFFIX,vivox.com
