@@ -60,6 +60,7 @@ payload:
   - DOMAIN-SUFFIX,terabox.com
   - DOMAIN-SUFFIX,4funbox.com
   - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,api.ipify.org
   
 #####育碧域名
   - DOMAIN-SUFFIX,vivox.com
