@@ -9,3 +9,4 @@ payload:
   - DOMAIN-SUFFIX,dl.playstation.net
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,pypi.org
