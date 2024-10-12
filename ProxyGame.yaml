@@ -26,6 +26,6 @@ payload:
   - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,callofduty.com
 #####代理游戏
-  - PROCESS-NAME,pcap2socks.exe
-  - PROCESS-NAME,MonsterHunterRise.exe
+#  - PROCESS-NAME,pcap2socks.exe
+#  - PROCESS-NAME,MonsterHunterRise.exe
 
