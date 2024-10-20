@@ -2,6 +2,7 @@
 payload:
   - DOMAIN-SUFFIX,megaup.net
   - DOMAIN-SUFFIX,mega.co.nz
+  - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,Clicknupload.com
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,sharepoint.com
