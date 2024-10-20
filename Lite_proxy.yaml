@@ -58,6 +58,7 @@ payload:
   - DOMAIN-SUFFIX,4funbox.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,api.ipify.org
   - DOMAIN-SUFFIX,wiki.metacubex.one
   
 #####育碧域名
