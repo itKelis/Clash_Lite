@@ -60,6 +60,7 @@ payload:
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,api.ipify.org
   - DOMAIN-SUFFIX,wiki.metacubex.one
+  - DOMAIN-SUFFIX,dash.madou.club
   
 #####育碧域名
   - DOMAIN-SUFFIX,vivox.com
