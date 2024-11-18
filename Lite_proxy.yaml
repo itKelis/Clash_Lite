@@ -10,6 +10,7 @@ payload:
   - DOMAIN,v2ex.com
   - DOMAIN,edge.microsoft.com
   - DOMAIN,szextshort.weixin.qq.com
+  - DOMAIN,extshort.weixin.qq.com
   - DOMAIN,szminorshort.weixin.qq.com
   - DOMAIN,mp.weixin.qq.com
 #  - DOMAIN,dns.weixin.qq.com
