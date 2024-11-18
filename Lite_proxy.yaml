@@ -15,7 +15,7 @@ payload:
   #- DOMAIN-KEYWORD,short.weixin
 #  - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
-  - DOMAIN,igg-games.com
+#  - DOMAIN,igg-games.com
   - DOMAIN,iqiq.io
   - DOMAIN,service-aggregation-layer.juno.ea.com
   - DOMAIN-SUFFIX,44pmo.com
