@@ -9,10 +9,10 @@ payload:
   - DOMAIN,rewards.microsoft.com
   - DOMAIN,v2ex.com
   - DOMAIN,edge.microsoft.com
-  - DOMAIN-KEYWORD,long.wechat
-  - DOMAIN-KEYWORD,short.wechat
-  - DOMAIN-KEYWORD,long.weixin
-  - DOMAIN-KEYWORD,short.weixin
+ # - DOMAIN-KEYWORD,long.wechat
+  #- DOMAIN-KEYWORD,short.wechat
+  #- DOMAIN-KEYWORD,long.weixin
+  #- DOMAIN-KEYWORD,short.weixin
 #  - DOMAIN,dns.weixin.qq.com
   - DOMAIN,addons.mozilla.org
   - DOMAIN,igg-games.com
