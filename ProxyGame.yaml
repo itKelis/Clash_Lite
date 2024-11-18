@@ -26,7 +26,9 @@ payload:
   - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,callofduty.com
-#####代理游戏
-#  - PROCESS-NAME,pcap2socks.exe
-#  - PROCESS-NAME,MonsterHunterRise.exe
+#####街霸6
+  - DOMAIN-SUFFIX,streetfighter.com
+  - DOMAIN-SUFFIX,playfabapi.com
+  - DOMAIN-SUFFIX,capcom.com
+
 
