@@ -8,6 +8,7 @@ payload:
   - DOMAIN,moes.lnaspiring.com
   - DOMAIN,rewards.microsoft.com
   - DOMAIN,v2ex.com
+  - DOMAIN,store.steampowered.com
   - DOMAIN,edge.microsoft.com
  # - DOMAIN-KEYWORD,long.wechat
   #- DOMAIN-KEYWORD,short.wechat
