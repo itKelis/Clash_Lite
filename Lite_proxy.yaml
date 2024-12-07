@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,kde
   - DOMAIN-KEYWORD,pling
   - DOMAIN-KEYWORD,v2ex
+  - DOMAIN,title.mgt.xboxlive.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN,moes.lnaspiring.com
   - DOMAIN,rewards.microsoft.com
