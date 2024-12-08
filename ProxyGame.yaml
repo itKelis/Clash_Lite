@@ -29,7 +29,7 @@ payload:
   - DOMAIN-SUFFIX,callofduty.com
 #####街霸6
   - DOMAIN-SUFFIX,streetfighter.com
-  - DOMAIN-SUFFIX,playfabapi.com
+  #- DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,capcom.com
 
 
