@@ -6,6 +6,7 @@
 payload:
 #####彩虹六号游戏节点
   - DOMAIN,public-ubiservices.ubi.com
+  - DOMAIN,public-im-ubiservices.ubi.com
   - DOMAIN,r6s1.battleye.com
   - DOMAIN,ubisoft-avatars.akamaized.net
   - DOMAIN,public-ws-ubiservices.ubi.com
