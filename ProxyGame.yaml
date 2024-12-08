@@ -4,6 +4,11 @@
 #
 #
 payload:
+#####xbox节点
+  - DOMAIN,title.mgt.xboxlive.com
+#####Steam p2p联机
+#####xbox节点
+  - DOMAIN-SUFFIX,discovery.steamserver.net
 #####彩虹六号游戏节点
   - DOMAIN,public-ubiservices.ubi.com
   - DOMAIN,public-im-ubiservices.ubi.com
@@ -31,5 +36,7 @@ payload:
   - DOMAIN-SUFFIX,streetfighter.com
   #- DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,capcom.com
+  - 
+
 
 
