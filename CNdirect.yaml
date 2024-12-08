@@ -1,2 +1,10 @@
+#2020.7.30
+#
+#
+#此为直连域名
+#
+
 payload:
-  - DOMAIN,todesk.com
+  ######todesk#######
+  - DOMAIN-SUFFIX,todesk.com
+  
