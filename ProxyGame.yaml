@@ -38,9 +38,9 @@ payload:
   - DOMAIN-SUFFIX,capcom.com
 #####三角洲
   - DOMAIN-SUFFIX,jupiterlauncher.com
-  - intlgame.com
-  - dgameglobal.com
-  - anticheatexpert.com
+  - DOMAIN-SUFFIX,intlgame.com
+  - DOMAIN-SUFFIX,dgameglobal.com
+  - DOMAIN-SUFFIX,anticheatexpert.com
 
 
 
