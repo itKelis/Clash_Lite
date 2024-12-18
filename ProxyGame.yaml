@@ -36,7 +36,11 @@ payload:
   - DOMAIN-SUFFIX,streetfighter.com
   #- DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,capcom.com
-  - 
+#####三角洲
+  - DOMAIN-SUFFIX,jupiterlauncher.com
+  - intlgame.com
+  - dgameglobal.com
+  - anticheatexpert.com
 
 
 
