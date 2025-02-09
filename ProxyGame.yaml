@@ -24,6 +24,7 @@ payload:
   - DOMAIN,lb-rdv-r6-pc-ne1.ubisoft.com
   - DOMAIN-SUFFIX,dmx.upc.ubisoft.com
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
+  - DOMAIN,qos-sa-east-1.online-services.aws.r6.ubi.com
 
 #####任天堂
   - DOMAIN,app-a03.lp1.npns.srv.nintendo.net
@@ -36,6 +37,8 @@ payload:
   - DOMAIN-SUFFIX,streetfighter.com
   #- DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,capcom.com
+##### 怪猎荒野
+  - DOMAIN-KEYWORD,wilds
 #####三角洲
   - DOMAIN-SUFFIX,jupiterlauncher.com
   - DOMAIN-SUFFIX,intlgame.com
