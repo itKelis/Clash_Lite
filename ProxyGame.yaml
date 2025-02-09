@@ -26,7 +26,7 @@ payload:
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
   - DOMAIN,qos-sa-east-1.online-services.aws.r6.ubi.com
   - DOMAIN,r6addonslive.akamaized.net
-  - DOMAIN-SUFFIX,westus.cloudapp.azure
+  - DOMAIN-SUFFIX,westus.cloudapp.azure.com
 
 #####任天堂
   - DOMAIN,app-a03.lp1.npns.srv.nintendo.net
