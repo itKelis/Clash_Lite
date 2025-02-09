@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,dmx.upc.ubisoft.com
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
   - DOMAIN,qos-sa-east-1.online-services.aws.r6.ubi.com
+  - DOMAIN,r6addonslive.akamaized.net
 
 #####任天堂
   - DOMAIN,app-a03.lp1.npns.srv.nintendo.net
