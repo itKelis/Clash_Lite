@@ -6,6 +6,7 @@
 
 payload:
   ######todesk#######
-  - DOMAIN-SUFFIX,todesk.com
-  - DOMAIN-SUFFIX,leiniao.com
+  - '+.todesk.com'
+  - '+.leiniao.com'
+  - '+.xiaomiai.com'
   
